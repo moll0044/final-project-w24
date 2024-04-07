@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Assignment</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="images/doughp-logo.webp" alt="Doughp website logo">
+        <div class="wrapper nav-elements">
+            <img src="images/doughp-logo.webp" alt="Doughp website logo">
 
-        <nav>
-            <ul>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">About Us</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+        </div>    
     </header>
     
     <main>
-        <section>
+        <section id="intro">
             <div class="wrapper">
                 <div class="grid-one">
                     <img src="images/product-shot-1.webp" alt="Red velvet flavored cookie dough">
@@ -26,19 +32,21 @@
                     <img src="images/product-shot-3.webp" alt="Chocolate chip flavored cookie dough">
                     <img src="images/product-shot-4.webp" alt="Peanut butter flavored cookie dough">
                 </div>
-                <div class="section-one-text">
-                    <h1>Sweetheart's Affai</h1>
-                    <p>Limited edition</p>
+                <div class="intro-text">
+                    <h1>Sweetheart's Affair</h1>
+                    <p id="limited-edition">Limited edition</p>
                     <p>Red Velvet Cupcake, Peanut Butter Kiss and Chocolate Chip</p>
                     <p>$55.00</p>
                     <p>Introducing our delectable trio of cookie dough flavors guaranteed to tantalize your taste buds like never before! Unveiling the ultimate indulgence in every bite, our cookie dough pack offers a divine selection of three mouthwatering flavors.</p>
                     <p>Whether you're craving a classic favorite or eager to embark on a culinary journey, this trio has something for everyone. So go ahead, treat yourself to the ultimate cookie dough experience and discover pure bliss in every spoonful!</p>
-                    <p>Add to cart</p>
+                    <!-- <a class="btn" href="#" aria-label="Learn more about web design services">Learn more</a> -->
+                    <a href="#">Add to cart</a>
+
                 </div>
             </div>
         </section>
 
-        <section>
+        <section id="behind-the-dough">
             <div class="wrapper">
                 <h2>Behind the Dough</h2>
 
@@ -49,7 +57,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="what-poeple-are-saying">
             <div class="wrapper">
                 <h2>What people are saying</h2>
  
@@ -78,30 +86,34 @@
             </div>
         </section>
 
-        <section>
+        <section id="try-it-with">
             <div class="wrapper">
                 <h2>Try it with...</h2>
 
-                <div>
-                    <img src="images/ride-or-die.webp" alt="Ride or die cookie dough">
-                    <p>Ride or Die</p>
-                    <p>$17.00</p>
-                </div>
+                <div class="flavors">
+                    <div>
+                        <img src="images/ride-or-die.webp" alt="Ride or die cookie dough">
+                        <h3>Ride or Die</h3>
+                        <p>$17.00</p>
+                    </div>
 
-                <div>
-                    <img src="images/brownie-beast.webp" alt="Brownie beast cookie dough">
-                    <p>Brownie Beast</p>
-                    <p>$17.00</p>
-                </div>
+                    <div>
+                        <img src="images/brownie-beast.webp" alt="Brownie beast cookie dough">
+                        <h3>Brownie Beast</h3>
+                        <p>$17.00</p>
+                    </div>
 
-                <div>
-                    <img src="images/cookie-monsta.webp" alt="Cookie monster cookie dough">
-                    <p>Cookie Monsta</p>
-                    <p>$17.00</p>
-                </div>
+                    <div>
+                        <img src="images/cookie-monsta.webp" alt="Cookie monster cookie dough">
+                        <h3>Cookie Monsta</h3>
+                        <p>$17.00</p>
+                    </div>
 
-                <div>
-                    <img src="images/smores.webp" alt="Want s'mores cookie dough">
+                    <div>
+                        <img src="images/smores.webp" alt="Want s'mores cookie dough">
+                        <h3>Want S'more?</h3>
+                        <p>$17.00</p>
+                    </div>
                 </div>
             </div>
         </section>

@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    border: 2px solid #000;
+}
+
+body {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.4;
+    margin: 0;
+}
+
+#intro img, .flavors img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.027rem;
+}
+
+h2 {
+    font-size: 1.802rem;
+}
+
+h3 {
+    font-size: .266rem;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-elements {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.grid-one {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr auto;
+    gap: 20px;
+
+}
+
+.grid-one img:nth-child(1) {
+    grid-column: 1 / -1;
+  }
+  
+.grid-one img:nth-child(2) {
+    grid-column: 1 / 2;
+  }
+
+.grid-one img:nth-child(3) {
+    grid-column: 2 / 3;
+  }
+
+.grid-one img:nth-child(4) {
+    grid-column: 3 / 4;
+  }
+
+.grid a:link,
+.grid a:visited {
+  /* padding: .8em 1em; */
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #414361;
+  border-radius: 4px;
+  margin-top: auto;
+  margin-bottom: 2em;
+}
