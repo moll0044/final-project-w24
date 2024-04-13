@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /* border: 2px solid #000; */
 }
 
 body {
@@ -59,32 +58,9 @@ a:hover {
     color: blue;
 }
 
-/* .grid-one {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr auto;
-    gap: 20px;
-}
-
 .grid-one img {
-    border-radius: 10px;
+    border-radius: 4px;
 }
-
-.grid-one img:nth-child(1) {
-    grid-column: 1 / -1;
-  }
-  
-.grid-one img:nth-child(2) {
-    grid-column: 1 / 2;
-  }
-
-.grid-one img:nth-child(3) {
-    grid-column: 2 / 3;
-  }
-
-.grid-one img:nth-child(4) {
-    grid-column: 3 / 4;
-  } */
 
   .grid-one {
     display: grid;
@@ -93,7 +69,6 @@ a:hover {
     grid-template-areas: 
     "img1 img1 img1 img1 img1 img1"
     "img2 img2 img3 img3 img4 img4"
-   
     ;
   }
 
@@ -113,6 +88,10 @@ grid-area: img3;
 grid-area: img4;
 }
 
+.grid-one {
+    border-radius: 4px;
+}
+
 .intro-text .limited-edition p {
     margin: 0
 }
@@ -121,16 +100,6 @@ grid-area: img4;
     text-transform: uppercase;
     font-weight: 700;
 }
-
-/* .limited-edition{
-    text-transform: uppercase;
-    font-weight: 700;
-} */
-
-/* .grid-three {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-} */
 
 .intro-text a {
     background-color: black;
@@ -183,14 +152,6 @@ grid-area: img4;
     padding-bottom: 3em;
 }
 
-/* .flavors {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 1rem;
-    text-align: center;
-} */
-
 .flavors {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -199,7 +160,7 @@ grid-area: img4;
 }
 
 .flavors div {
-    background-color: #f8fafc;
+    background-color: white;
     border-radius: 4px;
 }
 
@@ -216,28 +177,6 @@ footer {
     text-align: center;
     background-color: #222;
 }
-
-/* #fff, #222, #000,  and #f8fafc */
-
-/* @media (min-width: 768px) {
-    /* .grid-one {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 20px;
-    } */
-
-    /* .grid-three blockquote {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .flavors {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 1rem;
-}
-} */ 
 
 @media (min-width: 768px) {
     .grid-one {
